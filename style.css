@@ -61,14 +61,11 @@ header {
     justify-content: space-between;
     top: 20px;
     margin-left: 250px;
-    /* width: 80%; */
 }
 
 .topbar-left-content {
     margin-top: 10px;
     margin-left: 4px;
-    /* justify-content: flex-start;
-      align-items: center; */
 }
 
 .topbar-right-content {
