@@ -398,18 +398,25 @@ nav ul li a {
 .year {
     display: flex;
     background-color: #cdb30c;
+    align-items: center;
+    justify-content: space-between;
     margin-top: 100px;
     margin-left: -110px;
     width: 50%;
+    padding: 0px 20px;
 }
 
 .year-icon-div {
-    font-size: 50px;
+    font-size: 30px;
     background-color: #cdb30c;
     color: white;
-    justify-content: flex-start;
-    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     background-color: #232429;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
 
 }
