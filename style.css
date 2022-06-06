@@ -104,6 +104,9 @@ header {
     z-index: 1;
     /* width: 80%; */
 }
+#nav-icon{
+    display: none;
+}
 
 .logo {
     font-size: 32px;
@@ -192,7 +195,13 @@ nav ul li a {
     background: url("assets/image1.jpg.webp") repeat;
     background-attachment: fixed;
 }
-
+.container-div {
+    width: 70%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 .first-row {
     display: flex;
     flex-wrap: wrap;
@@ -601,13 +610,14 @@ nav ul li a {
 .testimonial-box-container {
     display: flex;
     width: 100%;
-    margin: 50px 70px;
+    margin-top:60px;
+    margin-bottom:60px;
 }
 
 .testimonial-box {
-    height: 250px;
-    width: 20%;
-    margin: 20px;
+    /* height: 250px; */
+    width: 30%;
+    margin: 10px;
     background-color: white;
     border-radius: 5px;
 }
@@ -662,6 +672,7 @@ nav ul li a {
 .box-button input .active{
     background-color: #cdb30c;
 }
+/*======= footer Section ======*/
 .footer-container{
     display: flex;
     justify-content: center;
@@ -682,10 +693,11 @@ nav ul li a {
     font-size: 20px;
     font-weight: 700;
 }
-.footer-div p{
+.footer-div p {
     margin-top: 30px;
-    color:rgba(255, 255, 255, 0.9);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 16px;
+    margin-bottom: 20px;
 }
 .footer-div i{
     /* line-height: 1.5; */
