@@ -17,6 +17,7 @@
         color: #f8f9fa;
         position: absolute;
         z-index: 1;
+        top: 0;
         /* width: 80%; */
     }
 
@@ -133,13 +134,12 @@
         background-color: #cdb30c;
         margin-top: 100px;
         margin-left: 4px;
-        width: 100%;
+        width: 90%;
     }
 
     .year-text-div {
         color: #f8f9fa;
-        justify-content: center;
-        padding: 6px 100px;
+        justify-content: center;       
     }
 
     /*======= counter Section ======*/
@@ -198,7 +198,7 @@
         margin-top: 25px;
         padding: 7px;
         color: #cdb30c;
-        margin-left: 200px;
+        margin-left: 0px;
         border: 2px solid #cdb30c;
     }
 
@@ -269,7 +269,7 @@
 
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1050px) {
 
     /*==== topbar section ==== */
     .topbar {

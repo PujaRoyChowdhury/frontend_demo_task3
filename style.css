@@ -429,9 +429,7 @@ nav ul li a {
 
 .year-text-div {
     color: #f8f9fa;
-    justify-content: center;
-    padding: 5px 40px;
-
+    justify-content: center;  
 }
 
 .year-text-div strong {
@@ -508,7 +506,8 @@ nav ul li a {
 .team-image {
     width: 95%;
     display: flex;
-    margin-left: 320px;
+    justify-content: flex-end;
+    /* margin-left: 320px; */
     margin-top: 80px;
 }
 
@@ -606,6 +605,7 @@ nav ul li a {
 
 .testimonial-box-container {
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin-top:60px;
     margin-bottom:60px;
@@ -613,7 +613,7 @@ nav ul li a {
 
 .testimonial-box {
     /* height: 250px; */
-    width: 30%;
+    flex: 1 0 21%;
     margin: 10px;
     background-color: white;
     border-radius: 5px;
@@ -719,3 +719,5 @@ margin-top: 30px;
     color: #f4f5f9;
     text-align: center;
 }
+
+
