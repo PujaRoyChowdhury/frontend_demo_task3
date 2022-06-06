@@ -104,7 +104,7 @@ header {
     z-index: 1;
     /* width: 80%; */
 }
-#nav-icon{
+.nav-icon{
     display: none;
 }
 
