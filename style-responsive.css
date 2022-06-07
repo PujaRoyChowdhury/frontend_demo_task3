@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 650px) {
 
-    h2{
+    h2 {
         font-size: 26px !important;
     }
 
@@ -144,7 +144,7 @@
 
     .year-text-div {
         color: #f8f9fa;
-        padding-left: 20px;    
+        padding-left: 20px;
     }
 
     /*======= counter Section ======*/
@@ -185,6 +185,9 @@
         width: 100% !important;
     }
 
+    .team-link {
+        margin-top: 0px;
+    }
 
     /*======= project Section ======*/
     .project-container {
@@ -196,8 +199,10 @@
         justify-content: center;
         width: 100%;
         color: #f8f9fa;
+        padding-left: 20px;
     }
-    .team-link{
+
+    .team-link {
         margin-top: 0px;
     }
 
@@ -277,7 +282,7 @@
 }
 
 @media screen and (max-width: 900px) {
-    h2{
+    h2 {
         font-size: 30px;
     }
 
@@ -311,12 +316,14 @@
         letter-spacing: 1.5px;
         font-weight: 600;
     }
+
     .logo {
         font-size: 32px;
         font-weight: 800;
         margin-top: 15px;
         margin-left: 40px;
     }
+
     /*==== banner section ==== */
     .banner-content {
         position: absolute;
@@ -336,7 +343,7 @@
         margin-left: auto;
     }
 
-
+    /*==== team section ==== */
     .team-image {
         width: 100%;
         display: inline-block;
@@ -345,12 +352,14 @@
         padding: 0 20px;
         /* padding-right: 40px; */
     }
+
     .team-image img {
         height: 300px;
         width: 40%;
         background-size: cover;
     }
-    .team-heading{
+
+    .team-heading {
         margin-right: 0;
     }
 }
